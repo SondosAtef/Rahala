@@ -66,9 +66,15 @@
 
 .hotelDetails {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   gap: 20px;
   margin-top: 20px;
+}
+@media screen and (max-width: 980px) {
+  .hotelDetails {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .hotelDetailsTexts {

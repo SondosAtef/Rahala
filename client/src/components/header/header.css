@@ -1,5 +1,5 @@
 .header {
-  background-color: #34a0a4;
+  background-color: #29797c;
   color: white;
   display: flex;
   justify-content: center;
@@ -40,7 +40,7 @@
 }
 
 .headerBtn {
-  background-color: #1E6091;
+  background-color: #20475b;
   border-radius:5px;
   color: white;
   font-weight: 500;

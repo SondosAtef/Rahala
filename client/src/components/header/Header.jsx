@@ -102,7 +102,7 @@ const Header = ({ type }) => {
               Get rewarded for your travels – unlock instant savings of 10% or
               more with a free Rahala account
             </p>
-            {!user && <button className="headerBtn">Sign in / Register</button>}
+            
             <div className="headerSearch container-fluid ">
               <div className="row w-100  ml-5">
                 <div className="col-lg-3 col-sm-12 mt-2">

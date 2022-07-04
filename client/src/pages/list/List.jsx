@@ -50,6 +50,7 @@ const List = () => {
                   onChange={(item) => setDates([item.selection])}
                   minDate={new Date()}
                   ranges={dates}
+                  className="bg"
                 />
               )}
             </div>

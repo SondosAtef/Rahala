@@ -1,4 +1,4 @@
-.login {
+.register {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -12,18 +12,20 @@
   }
   
   .lInput{
-    height: 30px;
-    padding: 10px;
+    width:350px;
+    height: 50px;
+    padding: 15px 20px;
   }
   
   .lButton {
     border: none;
     padding: 10px 20px;
-    background-color: #0071c2;
+    background-color: #20475b;
     color: white;
     font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
+    width:175px;
   }
   
   .lButton:disabled{

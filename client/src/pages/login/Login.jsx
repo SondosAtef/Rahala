@@ -58,14 +58,14 @@ const Login = () => {
           onChange={handleChange}
           className="lInput"
         />
-        <button disabled={loading} onClick={handleClick} className="lButton">
+        <button disabled={loading} onClick={handleClick} className="lButton mx-auto mt-3">
           Login
         </button>
         {error && <span>{error.message}</span>}
       </div>
      
     </div>
-     <div className="row"><Footer/></div>
+     
      
     </div>
     </div>

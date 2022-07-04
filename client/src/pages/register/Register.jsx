@@ -42,7 +42,7 @@ const Register = () => {
     <div className="container-fluid">
     <div className="row">
     <Navbar />
-    <div className="login">
+    <div className="register">
        
      
       <div className="lContainer">
@@ -94,14 +94,14 @@ const Register = () => {
           onChange={handleChange}
           className="lInput"
         /> 
-        <button disabled={loading} onClick={handleClick} className="lButton">
+        <button disabled={loading} onClick={handleClick} className="lButton mx-auto mt-3">
          Sign Up
         </button>
         {error && <span>{error.message}</span>}
       </div>
      
     </div>
-     <div className="row"><Footer/></div>
+
      
     </div>
     </div>
