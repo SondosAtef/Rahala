@@ -9,6 +9,7 @@
 
 .featuredItem{
   position: relative;
+  border-radius: 5px;
   color: white;
   border-radius: 10px;
   overflow: hidden;

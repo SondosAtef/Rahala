@@ -32,7 +32,7 @@ const List = () => {
       <Header type="list" />
       <div className="listContainer container-fluid w-100">
         <div className="listWrapper row">
-          <div className="col-lg-4 col-sm-12">
+          <div className="col-lg-3 col-sm-12">
           <div className="listSearch">
             <h1 className="lsTitle">Search</h1>
             <div className="lsItem">
@@ -108,7 +108,7 @@ const List = () => {
             {/* <button onClick={handleClick}>Search</button> */}
           </div>
           </div>
-          <div className="col-lg-7 col-sm-12 offset-lg-1">
+          <div className="col-lg-9 col-sm-12">
           <div className="listResult">
             {loading ? (
               "loading"

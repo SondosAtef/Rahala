@@ -56,7 +56,7 @@ const Footer = () => {
       
     </div>
     </div>
-    <div className="row"><div className="fText">Copyright © 2022 Lamabooking.</div></div>
+    <div className="row"><div className="fText">Copyright © 2022 Rahala.</div></div>
     </div>
   );
 };

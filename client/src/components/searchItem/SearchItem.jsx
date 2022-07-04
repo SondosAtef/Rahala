@@ -16,11 +16,8 @@ const SearchItem = ({ item }) => {
         <span className="siSubtitle">
           Studio Apartment with Air conditioning
         </span>
-        <span className="siFeatures">{item.desc}</span>
+        <span className="siFeatures">{item.desc.substring(0, 100)}...</span>
         <span className="siCancelOp">Free cancellation </span>
-        <span className="siCancelOpSubtitle">
-          You can cancel later, so lock in this great price today!
-        </span>
       </div>
       </div>
       <div className="col-lg-3">
